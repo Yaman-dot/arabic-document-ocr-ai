@@ -9,3 +9,9 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignore model files
+models/
+
+# Ignore Data files
+data/
