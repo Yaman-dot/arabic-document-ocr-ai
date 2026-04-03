@@ -1,0 +1,11 @@
+# Ignore virtual environments
+venv-qwen/
+venv-surya/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
