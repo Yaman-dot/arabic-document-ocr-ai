@@ -6,7 +6,7 @@ A Windows-based Arabic document digitalization pipeline that combines [Surya OCR
 
 ## How It Works
 
-Lumina runs in three phases per batch:
+Byanat runs in three phases per batch:
 
 **Phase 1 — Surya on everything**
 Surya OCR processes every page in the batch, producing per-line bounding boxes and confidence scores. This gives us layout (positions, line order) for the entire document.
@@ -42,7 +42,7 @@ Output PDF (_digitalized.pdf)
 ## Project Structure
 
 ```
-Lumina/ocr/
+Byanat/ocr/
 ├── src/
 │   ├── SuryaOCR.py           # Surya OCR wrapper
 │   ├── QwenOCR.py            # Qwen2.5-VL wrapper
@@ -75,10 +75,7 @@ Lumina/ocr/
 
 ### 1. Clone the repo
 
-```bash
-git clone https://github.com/your-username/lumina-ocr.git
-cd lumina-ocr/ocr
-```
+
 
 ### 2. Create the Surya venv
 
