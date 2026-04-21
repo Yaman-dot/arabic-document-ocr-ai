@@ -1,4 +1,4 @@
-# Lumina OCR
+# Byanat OCR
 
 A Windows-based Arabic document digitalization pipeline that combines [Surya OCR](https://github.com/VikParuchuri/surya) and [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) into a dual-model, confidence-routed batch processing system. Scanned Arabic documents go in — clean, searchable, layout-aware PDFs come out.
 
